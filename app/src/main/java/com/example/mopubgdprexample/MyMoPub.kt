@@ -46,16 +46,4 @@ class MyMoPub {
             mContext.startActivity(intent)
         }
     }
-
-    private fun initDialogLoadListener(): ConsentDialogListener {
-        return object : ConsentDialogListener {
-            override fun onConsentDialogLoaded() {
-                mPersonalInfoManager.showConsentDialog()
-            }
-
-            override fun onConsentDialogLoadFailed(@NonNull moPubErrorCode: MoPubErrorCode) {
-                Log.d("MoPub", "Consent dialog failed to load.")
-            }
-        }
-    }
 }
