@@ -7,7 +7,7 @@ class Constant {
             val BANNER_AD_UNIT = "b195f8dd8ded45fe847ad89ed1d016da"
 
             val MAIN_TEXT =
-                "This app presonalizes your advertising experience " +
+                "This app personalizes your advertising experience " +
                         "through MoPub, a division of Twitter International " +
                         "company. By consenting to this enhanced ad " +
                         "experience, you'll see ads that MoPub and it's " +
